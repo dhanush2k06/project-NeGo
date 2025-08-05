@@ -20,10 +20,10 @@
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       width: 300px;
+      text-align: center;
     }
     .login-container h2 {
       margin-bottom: 1.5rem;
-      text-align: center;
     }
     .login-container input {
       width: 100%;
@@ -46,8 +46,16 @@
     }
     .login-container .link {
       margin-top: 1rem;
-      text-align: center;
       font-size: 0.9rem;
+    }
+    .login-container .link a {
+      display: block;
+      margin: 4px 0;
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .login-container .link a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -58,8 +66,9 @@
     <input type="password" placeholder="Password" required>
     <button>Login</button>
     <div class="link">
-      <a href="forgot_password.html">Forgot password?</a><br>
+      <a href="forgot_password.html">Forgot password?</a>
       <a href="signup.html">Create an account</a>
+      <a href="index.html">← Back to Home</a>
     </div>
   </div>
 </body>
